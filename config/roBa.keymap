@@ -91,13 +91,6 @@
             bindings = <&kp B &kp E &kp G &kp P &kp LS(U) &kp N4 &kp MINUS &kp W &kp O &kp C &kp T &kp Y &kp W &kp MINUS &kp D &kp Y &kp K &kp N &kp A &kp Q &kp ENTER>;
             label = "LW";
         };
-
-        test: test {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none>;
-            label = "TEST";
-        };
     };
 
     behaviors {
