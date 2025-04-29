@@ -112,9 +112,9 @@
 
         NUM_MB {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                         &kp LG(SPACE)   &kp LC(LEFT)  &kp LC(RIGHT)     &kp LC(NUMBER_1)  &kp F15
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp ESCAPE            &kp LG(C)       &mkp MB1      &kp F14           &mkp MB2          &kp F16
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp LS(LG(V))         &kp LG(V)       &mkp MB4      &kp LC(UP_ARROW)  &mkp MB5          &kp F17
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                         &kp LG(SPACE)   &kp LC(LEFT)  &kp LC(RIGHT)     &kp LC(NUMBER_1)  &kp F17
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp ESCAPE            &kp LG(C)       &mkp MB1      &kp F16           &mkp MB2          &kp F18
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp LS(LG(V))         &kp LG(V)       &mkp MB4      &kp LC(UP_ARROW)  &mkp MB5          &kp F19
 &trans                      &trans           &trans           &trans           &trans        &trans                       &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))                                                    &trans
             >;
         };
@@ -130,9 +130,9 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 Q           &to_layer_0 W  &to_layer_0 E  &to_layer_0 R  &to_layer_0 T                                            &to_layer_0 LG(SPACE)   &to_layer_0 LC(LEFT_ARROW)  &to_layer_0 LC(RIGHT)     &to_layer_0 LC(NUMBER_1)  &to_layer_0 F15
-&to_layer_0 A           &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G  &trans      &to_layer_0 ESCAPE            &to_layer_0 LG(C)       &mkp_exit_AML MB1           &mkp_exit_AML MB3         &mkp_exit_AML MB2         &to_layer_0 F16
-&to_layer_0 LEFT_SHIFT  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &to_layer_0 B  &trans      &to_layer_0 LG(LS(V))         &to_layer_0 LG(V)       &mkp MB4                    &to_layer_0 LC(UP_ARROW)  &mkp MB5                  &to_layer_0 F17
+&to_layer_0 Q           &to_layer_0 W  &to_layer_0 E  &to_layer_0 R  &to_layer_0 T                                            &to_layer_0 LG(SPACE)   &to_layer_0 LC(LEFT_ARROW)  &to_layer_0 LC(RIGHT)     &to_layer_0 LC(NUMBER_1)  &to_layer_0 F17
+&to_layer_0 A           &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G  &trans      &to_layer_0 ESCAPE            &to_layer_0 LG(C)       &mkp_exit_AML MB1           &to_layer_0 F16           &mkp_exit_AML MB2         &to_layer_0 F18
+&to_layer_0 LEFT_SHIFT  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &to_layer_0 B  &trans      &to_layer_0 LG(LS(V))         &to_layer_0 LG(V)       &mkp MB4                    &to_layer_0 LC(UP_ARROW)  &mkp MB5                  &to_layer_0 F19
 &trans                  &trans         &trans         &to 0          &trans         &trans      &to_layer_0 LG(LS(NUMBER_4))  &to_layer_0 LG(LS(N5))                                                                                  &trans
             >;
         };
